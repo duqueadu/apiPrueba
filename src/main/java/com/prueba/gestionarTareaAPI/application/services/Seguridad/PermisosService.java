@@ -12,7 +12,13 @@ import com.prueba.gestionarTareaAPI.infrastructure.entities.Seguridad.Permisos;
 import java.util.List;
 import java.util.Optional;
 
+
+
+
 public class PermisosService implements CreatePermisoUseCase, RetrievePermisoUseCase, UpdatePermisoUseCase, DeletePermisoUseCase {
+
+
+
 
     private final CreatePermisoUseCase createPermisoUseCase;
     private final RetrievePermisoUseCase retrievePermisosUseCase;

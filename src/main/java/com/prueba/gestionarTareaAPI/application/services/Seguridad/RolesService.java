@@ -11,8 +11,14 @@ import com.prueba.gestionarTareaAPI.infrastructure.entities.Seguridad.Roles;
 import java.util.List;
 import java.util.Optional;
 
+
+
+
 public class RolesService implements CreateRolesUseCase, RetrieveRolUseCase, UpdateRolUseCase, DeleteRolUseCase {
 
+
+
+    
     private final CreateRolesUseCase createRolesUseCase;
     private final RetrieveRolUseCase retrieveRolesUseCase;
     private final UpdateRolUseCase updateRolesUseCase;

@@ -18,8 +18,13 @@ public class RolPermisoService implements CreateRolPermisoUseCase, RetrieveRolPe
     private final UpdateRolPermisoUseCase  updateRolPermisoUseCase;
     private final DeleteRolPermisoUseCase  deleteRolPermisoUseCase;
 
+
+
+
     public RolPermisoService(CreateRolPermisoUseCase createRolPermisoUseCase, RetrieveRolPermisoUseCase retrieveRolPermisoUseCase,
-                             UpdateRolPermisoUseCase updateRolPermisoUseCase, DeleteRolPermisoUseCase deleteRolPermisoUseCase
+          
+    
+    UpdateRolPermisoUseCase updateRolPermisoUseCase, DeleteRolPermisoUseCase deleteRolPermisoUseCase
                         ) {
         this.createRolPermisoUseCase = createRolPermisoUseCase;
         this.retrieveRolPermisoUseCase = retrieveRolPermisoUseCase;

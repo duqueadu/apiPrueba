@@ -36,6 +36,7 @@ public class RolesService implements CreateRolesUseCase, RetrieveRolUseCase, Upd
     public Optional<Rol> getRolById(Long id) {
         return retrieveRolesUseCase.getRolById(id);
     }
+    
 
     @Override
     public List<Rol> getAllRol() {

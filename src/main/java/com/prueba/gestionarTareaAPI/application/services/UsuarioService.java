@@ -1,9 +1,7 @@
 package com.prueba.gestionarTareaAPI.application.services;
 
-
 import com.prueba.gestionarTareaAPI.domain.model.Usuario.Usuario;
 import com.prueba.gestionarTareaAPI.domain.ports.in.ports.in.Usuario.*;
-
 import java.util.List;
 import java.util.Optional;
 
@@ -15,10 +13,6 @@ public class UsuarioService implements CreateUsuarioUseCase, RetrieveUsuarioUseC
     private final DeleteUsuarioUseCase deleteUsuarioUseCase;
 
     private final loginUsuarioUseCase loginUsuarioUseCase;
-
-
-
-
 
     public UsuarioService(CreateUsuarioUseCase createUsuarioUseCase, RetrieveUsuarioUseCase retrieveUsuarioUseCase,
                        UpdateUsuarioUseCase updateUsuarioUseCase, DeleteUsuarioUseCase deleteUsuarioUseCase,loginUsuarioUseCase loginUsuarioUseCase

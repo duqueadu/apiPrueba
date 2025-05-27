@@ -15,9 +15,12 @@ public interface PermisosRepositoryPort {
 
     Optional<Permiso> update(Permisos permiso);
 
+    
     List<Permiso> findAll();
 
     Optional<Permiso> update(Permiso permisos);
+
+
 
     boolean deleteById(Long id);
 }
